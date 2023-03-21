@@ -1,0 +1,198 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&family=Source+Sans+Pro:ital,wght@0,300;0,400;0,600;0,700;1,200&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* font-family: 'Poppins', sans-serif; */
+    font-family: 'Source Sans Pro', sans-serif;
+}
+body{
+    background-color: #FCF8F5;
+    overflow: hidden;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 80px;
+    height: 70px;
+}
+nav h2{
+    font-size: 30px;
+    font-weight: 400;
+}
+nav ul{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 40%;
+}
+nav ul li a{
+    text-decoration: none;
+    color: #000;
+}
+.icons{
+    width: 10%;
+}
+.icons i{
+    padding: 15px;
+    font-size: 15px;
+}
+.hero-sections{
+display: flex;
+height: 85vh;
+}
+.image-sections{
+width: 60%;
+height:600px;
+/* background-color: red; */
+padding: 30px 80px;
+display: flex;
+position: relative;
+z-index: -1;
+}
+.image-sections h1{
+    font-size: 80px;
+    width: 50%;
+    font-weight: 600;
+    line-height: 80px;
+    z-index: 1;
+    padding-top: 30px;
+}
+.box-color{
+    height: 400px;
+    width: 400px;
+    border-radius: 50%;
+    background-color: #F4E5D6;
+    position: absolute;
+    left: 310px;
+}
+.box-color img{
+    position: absolute;
+    top: -70px;
+    right: -50px;
+    height: 650px;
+}
+.hero-btn{
+    border: 1px solid black;
+    position: absolute;
+    bottom: 240px;
+    
+}
+.hero-btn button{
+    height: 40px;
+    width: 180px;
+    color: #361A1C;
+    font-weight: bold;
+}
+.hero-btn button i{
+    font-size: 20px;
+}
+.product-image{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* z-index: 1; */
+    padding: 0px 80px;
+    width: 90%;
+    /* border: 2px solid yellow; */
+}
+.product-image :first-child {
+    position: absolute;
+    height: 140px;
+    bottom: 20px;
+    left: 220px;
+
+}
+.product-image :last-child{
+    position: absolute;
+    height: 140px;
+    bottom: 20px;
+    right: 260px;
+}
+.product-image :nth-child(2){
+    position: absolute;
+    bottom: 5px;
+    left:370px;
+}
+.product-image :nth-child(3){
+    position: absolute;
+    bottom: 20px;
+    left: 580px;
+    height: 140px;
+}
+.product-image :nth-child(4){
+    position: absolute;
+    bottom: 20px;
+    left: 730px;
+    height: 140px;
+}
+.hero-text-sections{
+    width: 40%;
+    height: 70%;
+    padding:40px 0px;
+}
+.collection h2{
+    /* display: flex; */
+    font-size: 40px;
+    font-weight: 600;
+    padding-bottom: 10px;
+}
+.women-text{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 80%;
+    padding-bottom: 10px;
+    border-bottom: 1px solid gray;
+}
+.women-text span h5{
+    font-size: 20px;
+    width: 70%;
+    font-weight: 400;
+}
+.women-text span p{
+    font-size: 14px;
+    font-weight: 600;
+    color: gray;
+}
+.armano-text{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 80%;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    border-bottom: 1px solid gray;
+}
+.armano-text span h5{
+    font-size: 20px;
+    width: 70%;
+    font-weight: 400;
+}
+.armano-text span p{
+    font-size: 14px;
+    font-weight: 600;
+    color: gray;
+}
+.fashion-text{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 80%;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    border-bottom: 1px solid gray;
+}
+.fashion-text span h5{
+    font-size: 20px;
+    width: 70%;
+    font-weight: 400;
+}
+.fashion-text span p{
+    font-size: 14px;
+    font-weight: 600;
+    color: gray;
+}
